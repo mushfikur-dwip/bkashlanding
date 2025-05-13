@@ -1,5 +1,5 @@
 body {
-    font-family: 'Inter', sans-serif;
+  font-family: "Hind Siliguri", sans-serif !important ;
 }
 
 h1,
@@ -8,7 +8,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Hind Siliguri", sans-serif !important;
 }
 
 .confetti-bg {
@@ -85,3 +85,48 @@ h6 {
 .course-card:nth-child(8) {
     animation-delay: 0.8s;
 }
+
+.copy-btn {
+    padding: 10px 20px;
+    background-color: #10b981;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .copy-alert {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%) scale(0.8);
+    background-color: #22c55e;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 9999;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .copy-alert.show {
+    opacity: 1;
+    transform: translateX(-50%) scale(1.05);
+    animation: popBlast 0.6s ease forwards;
+  }
+
+  @keyframes popBlast {
+    0% {
+      transform: translateX(-50%) scale(0.8);
+    }
+    50% {
+      transform: translateX(-50%) scale(1.2);
+    }
+    100% {
+      transform: translateX(-50%) scale(1);
+    }
+  }

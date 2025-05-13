@@ -1,0 +1,71 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "tag": "eBook",
+      "title": "চ্যাটজিপিটি প্রম্পট ইঞ্জিনিয়ারিং ই বুক",
+      "courseLink": "https://learningbangladesh.com/ebook/shop/?add-to-cart=110",
+      "oldPrice": "299",
+      "newPrice": "199",
+      "discount": "65% OFF",
+      "image": "https://learningbangladesh.com/wp-content/uploads/2024/12/Screenshot-2024-12-26-224410.png.webp",
+      "enrollBtn": "https://learningbangladesh.com/ebook/shop/?add-to-cart=110"
+    },
+    {
+      "id": 2,
+      "tag": "eBook",
+      "title": "৫০+ মার্কেটিং কেইস স্টাডি ই-বুক",
+      "courseLink": "https://learningbangladesh.com/ebook/shop/?add-to-cart=473",
+      "oldPrice": "199",
+      "newPrice": "49",
+      "discount": "33% OFF",
+      "image": "https://learningbangladesh.com/ebook/wp-content/uploads/2025/02/51-MARKETING.png",
+      "enrollBtn": "https://learningbangladesh.com/ebook/shop/?add-to-cart=473"
+    },
+    {
+      "id": 3,
+      "tag": "eBook",
+      "title": "৫০টি বিহেভিয়ারাল মার্কেটিং কেইস স্টাডি",
+      "courseLink": "https://learningbangladesh.com/ebook/shop/?add-to-cart=4064",
+      "oldPrice": "199",
+      "newPrice": "49",
+      "discount": "33% OFF",
+      "image": "https://learningbangladesh.com/ebook/wp-content/uploads/2025/02/%E0%A6%AC%E0%A6%BF%E0%A6%B9%E0%A7%87%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%B2-%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%E0%A6%9F%E0%A6%BF%E0%A6%82-%E0%A7%AB%E0%A7%A6%E0%A6%9F%E0%A6%BF-%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%AC-%E0%A6%95%E0%A7%87%E0%A6%B8-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%A1%E0%A6%BF.png",
+      "enrollBtn": "https://learningbangladesh.com/ebook/shop/?add-to-cart=4064"
+    },
+    {
+      "id": 4,
+      "tag": "eBook",
+      "title": "চাকরির পাশাপাশি বিজনেজ",
+      "courseLink": "https://learningbangladesh.com/ebook/shop/?add-to-cart=1615",
+      "oldPrice": "299",
+      "newPrice": "99",
+      "discount": "33% OFF",
+      "image": "https://learningbangladesh.com/ebook/wp-content/uploads/2025/02/Copy-of-%E0%A6%9A%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B6%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A6%B6%E0%A6%BF-%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B8-4.png",
+      "enrollBtn": "https://learningbangladesh.com/ebook/shop/?add-to-cart=1615"
+    },
+    {
+      "id": 5,
+      "tag": "eBook",
+      "title": "প্রথম চাকরির প্রস্তুতি - ৩০০+ পেইজের ইবুক",
+      "courseLink": "https://learningbangladesh.com/ebook/shop/?add-to-cart=12673",
+      "oldPrice": "299",
+      "newPrice": "99",
+      "discount": "33% OFF",
+      "image": "https://learningbangladesh.com/ebook/wp-content/uploads/2025/03/প্রথম-চাকরির-প্রস্তুতি.png",
+      "enrollBtn": "https://learningbangladesh.com/ebook/shop/?add-to-cart=12673"
+    },
+    {
+      "id": 6,
+      "tag": "eBook",
+      "title": "ক্যারিয়ার গ্রোথে ৯৯টি টিপস",
+      "courseLink": "https://learningbangladesh.com/ebook/shop/?add-to-cart=8013",
+      "oldPrice": "299",
+      "newPrice": "99",
+      "discount": "33% OFF",
+      "image": "https://learningbangladesh.com/ebook/wp-content/uploads/2025/03/%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%A4-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%A5-%E0%A6%AA%E0%A7%87%E0%A6%A4%E0%A7%87-%E0%A7%AF%E0%A7%AF%E0%A6%9F%E0%A6%BF-%E0%A6%B8%E0%A6%B9%E0%A6%9C-%E0%A6%9F%E0%A6%BF%E0%A6%AA%E0%A6%B8.png",
+      "enrollBtn": "https://learningbangladesh.com/ebook/shop/?add-to-cart=8013"
+    }
+  ]
+  
+}

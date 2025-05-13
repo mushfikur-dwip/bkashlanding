@@ -15,22 +15,26 @@ fetch("data.json")
       }" class="w-full h-48 object-cover">
                                     <div class="p-2">
                                       <div class="inline-block px-3 py-1 bg-accent-yellow text-xs font-semibold rounded-full mb-3">${
-                                        course.badge || "HOT"
+                                        course.tag || "HOT"
                                       }</div>
-                                      <h3 class="text-xl font-semibold font-poppins mb-2">${
+                                      <a class="text-xl font-semibold mb-2" href="${
+                                        course.courseLink
+                                      }">
+                                      <p class="text-xl font-semibold mb-2  text-md text-md">${
                                         course.title
-                                      }</h3>
-                                      <p class="text-gray-600 mb-4 text-sm">• ${
+                                      }</p>
+                                      </a>
+                                      <p class="text-gray-600 mb-4 text-md">${
                                         course.subtitle
                                       }</p>
                                       <div class="flex items-center justify-between mb-4">
                                         <div>
                                           <del class="text-gray-500 text-sm">${
                                             course.oldPrice
-                                              ? `${course.oldPrice}`
+                                              ? `BDT ${course.oldPrice}`
                                               : ""
                                           }</del>
-                                          <p class="text-xl font-bold text-bkash-pink">${
+                                          <p class="text-xl font-bold text-bkash-pink">BDT ${
                                             course.newPrice
                                           }</p>
                                         </div>
@@ -38,7 +42,9 @@ fetch("data.json")
                                           course.discount || ""
                                         }</span>
                                       </div>
-                                     <a href="${course.enrollBtn}">
+                                     <a href="${
+                                       course.enrollBtn
+                                     }"  target="_blank" rel="noopener noreferrer">
   <div class="text-center w-full bg-bkash-pink text-white py-2 rounded-md hover:bg-opacity-90 transition duration-300">
     Enroll Now
   </div>
@@ -50,6 +56,62 @@ fetch("data.json")
     });
   })
   .catch((error) => console.error("Error loading courses:", error));
+
+  // ebook section
+  fetch("ebookData.json")
+    .then((res) => res.json())
+    .then((data) => {
+      const courseContainer = document.getElementById("ebook-container");
+
+      data.courses.forEach((course) => {
+        const div = document.createElement("div");
+        div.className =
+          "bg-white p-2 rounded-lg shadow-md hover:shadow-xl transition duration-300";
+        div.innerHTML = `
+                                    <img class="rounded-md" src="${
+                                      course.image
+                                    }" alt="${
+          course.title
+        }" class="w-full h-48 object-cover">
+                                    <div class="p-2">
+                                      <div class="inline-block px-3 py-1 bg-accent-yellow text-xs font-semibold rounded-full mb-3">${
+                                        course.tag || "HOT"
+                                      }</div>
+                                      <a class="text-xl font-semibold mb-2" href="${
+                                        course.courseLink
+                                      }">
+                                      <p class="text-xl font-semibold mb-2  text-md text-md">${
+                                        course.title
+                                      }</p>
+                                      </a>
+                                      
+                                      <div class="flex items-center justify-between mb-4">
+                                        <div>
+                                          <del class="text-gray-500 text-sm">${
+                                            course.oldPrice
+                                              ? `BDT ${course.oldPrice}`
+                                              : ""
+                                          }</del>
+                                          <p class="text-xl font-bold text-bkash-pink">BDT ${
+                                            course.newPrice
+                                          }</p>
+                                        </div>
+                                        <span class="bg-red-100 text-red-800 text-xs font-medium px-2 py-1 rounded">${
+                                          course.discount || ""
+                                        }</span>
+                                      </div>
+                                     <a href="${course.enrollBtn}">
+  <div class="text-center w-full bg-bkash-pink text-white py-2 rounded-md hover:bg-opacity-90 transition duration-300">
+    Order Now
+  </div>
+</a>
+
+                                    </div>
+                                    `;
+        courseContainer.appendChild(div);
+      });
+    })
+    .catch((error) => console.error("Error loading courses:", error));
 
 AOS.init({
   duration: 800,
