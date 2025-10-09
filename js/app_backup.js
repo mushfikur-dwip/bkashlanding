@@ -78,7 +78,7 @@ fetch("data.json")
             <a href="${
               course.enrollBtn
             }" target="_blank" rel="noopener noreferrer" class="block">
-              <div class="text-center w-full bg-[#F18526] text-white py-3 rounded-md  transition duration-300 font-medium">
+              <div class="text-center w-full bg-bkash-pink text-white py-3 rounded-md hover:bg-opacity-90 transition duration-300 font-medium">
                 Enroll Now
               </div>
             </a>
@@ -154,7 +154,7 @@ fetch("ebookData.json")
             <a href="${
               course.enrollBtn
             }" target="_blank" rel="noopener noreferrer" class="block">
-              <div class="text-center w-full bg-[#F18526] text-white py-3 rounded-md transition duration-300 font-medium">
+              <div class="text-center w-full bg-bkash-pink text-white py-3 rounded-md hover:bg-opacity-90 transition duration-300 font-medium">
                 Order Now
               </div>
             </a>
