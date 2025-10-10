@@ -144,11 +144,7 @@ fetch("ebookData.json")
                 course.newPrice
               }</p>
             </div>
-            ${
-              course.discount
-                ? `<span class="bg-red-100 text-red-800 text-xs font-medium px-2 py-1 rounded">${course.discount}</span>`
-                : ""
-            }
+            
           </div>
           <div class="course-card-button mt-4">
             <a href="${
@@ -244,29 +240,7 @@ document.querySelectorAll(".faq-question").forEach((button) => {
   });
 });
 
-const swiper = new Swiper(".testimonialSwiper", {
-  slidesPerView: 1,
-  spaceBetween: 30,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  breakpoints: {
-    640: {
-      slidesPerView: 1,
-    },
-    768: {
-      slidesPerView: 2,
-    },
-    1024: {
-      slidesPerView: 3,
-    },
-  },
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
-  },
-});
+// Swiper initialization moved to HTML file to ensure proper loading order
 
 const pricingToggle = document.getElementById("pricing-toggle");
 const monthlyElements = document.querySelectorAll(".pricing-monthly");
