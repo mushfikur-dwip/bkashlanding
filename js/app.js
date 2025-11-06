@@ -68,11 +68,7 @@ fetch("data.json")
                 course.newPrice
               }</p>
             </div>
-            ${
-              course.discount
-                ? `<span class="bg-red-100 text-red-800 text-xs font-medium px-2 py-1 rounded">${course.discount}</span>`
-                : ""
-            }
+
           </div>
           <div class="course-card-button mt-4">
             <a href="${
@@ -287,3 +283,10 @@ if (document.getElementById("newsletter-form")) {
       this.reset();
     });
 }
+
+//            <div>
+//              $
+//              {course.discount
+//                ? `<span class="bg-red-100 text-red-800 text-xs font-medium px-2 py-1 rounded">${course.discount}</span>`
+//                : ""}
+//           </div>;
