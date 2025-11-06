@@ -179,7 +179,7 @@ fetch("bundleData.json")
         <div class="course-card-content">
           <span class="course-tag px-3 py-1 bg-accent-yellow text-xs font-semibold rounded-full mb-3">বান্ডেল</span>
           <div class="course-card-title">
-            <a class="text-lg font-semibold hover:text-bkash-pink transition-colors" href="${bundle.link}" target="_blank">
+            <a class="text-lg font-semibold hover:text-bkash-pink transition-colors" href="${bundle.details}" target="_blank">
               <h3 class="text-lg font-semibold mb-2 line-clamp-2">${bundle.title}</h3>
             </a>
             <p class="text-gray-600 text-sm line-clamp-2 leading-relaxed mb-3">${bundle.description}</p>
@@ -197,7 +197,7 @@ fetch("bundleData.json")
           <div class="course-card-button mt-4">
             <a href="${bundle.link}" target="_blank" rel="noopener noreferrer" class="block">
               <div class="text-center w-full bg-[#F18526] text-white py-3 rounded-md transition duration-300 font-medium">
-                এখনই কিনুন
+               Enroll Now
               </div>
             </a>
           </div>
