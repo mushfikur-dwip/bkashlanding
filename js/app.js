@@ -158,6 +158,56 @@ fetch("ebookData.json")
   })
   .catch((error) => console.error("Error loading courses:", error));
 
+// Bundle section
+// Show loading for bundles
+showLoadingSkeleton("bundle-container", 4);
+
+fetch("bundleData.json")
+  .then((res) => res.json())
+  .then((data) => {
+    const bundleContainer = document.getElementById("bundle-container");
+    bundleContainer.innerHTML = ""; // Clear loading skeleton
+
+    data.forEach((bundle) => {
+      const div = document.createElement("div");
+      div.className =
+        "course-card bg-white rounded-lg shadow-md hover:shadow-xl transition duration-300 overflow-hidden";
+      div.innerHTML = `
+        <div class="relative">
+          <img class="course-card-image" src="${bundle.image}" alt="${bundle.title}" loading="lazy" onerror="this.src='https://via.placeholder.com/300x200?text=Bundle+Package'">
+        </div>
+        <div class="course-card-content">
+          <span class="course-tag px-3 py-1 bg-accent-yellow text-xs font-semibold rounded-full mb-3">বান্ডেল</span>
+          <div class="course-card-title">
+            <a class="text-lg font-semibold hover:text-bkash-pink transition-colors" href="${bundle.link}" target="_blank">
+              <h3 class="text-lg font-semibold mb-2 line-clamp-2">${bundle.title}</h3>
+            </a>
+            <p class="text-gray-600 text-sm line-clamp-2 leading-relaxed mb-3">${bundle.description}</p>
+          </div>
+          
+          
+
+          <div class="course-card-price flex items-center justify-between">
+            <div>
+              <del class="text-gray-500 text-sm">${bundle.originalPrice}</del>
+              <p class="text-xl font-bold text-bkash-pink">${bundle.discountedPrice}</p>
+            </div>
+          </div>
+          
+          <div class="course-card-button mt-4">
+            <a href="${bundle.link}" target="_blank" rel="noopener noreferrer" class="block">
+              <div class="text-center w-full bg-[#F18526] text-white py-3 rounded-md transition duration-300 font-medium">
+                এখনই কিনুন
+              </div>
+            </a>
+          </div>
+        </div>
+      `;
+      bundleContainer.appendChild(div);
+    });
+  })
+  .catch((error) => console.error("Error loading bundles:", error));
+
 AOS.init({
   duration: 800,
   easing: "ease-in-out",

@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "title": " Skill Marathon Pack",
+    "description": "Web Development, Graphic Design, Digital Marketing এবং AI Content Creation - সবকিছু একসাথে শিখুন",
+    "image": "https://learning-bangladesh.sgp1.digitaloceanspaces.com/courses/bundle1.jpg",
+    "originalPrice": "BDT 5000",
+    "discountedPrice": "BDT 899",
+    "link": "https://www.learningbangladesh.com/course/marathon-bundle-workshop/checkout"
+  },
+  {
+    "id": 2,
+    "title": "Digital Marketing Mastery Pack",
+    "description": "Facebook Marketing, SEO, Google Ads এবং Content Marketing - সম্পূর্ণ ডিজিটাল মার্কেটিং গাইড",
+    "image": "https://learning-bangladesh.sgp1.digitaloceanspaces.com/courses/bundle2.jpg",
+    "courses": 4,
+    "ebooks": 3,
+    "originalPrice": "BDT 7000",
+    "discountedPrice": "BDT 1499",
+    "discount": "79%",
+    "rating": 4.8,
+    "students": 950,
+    "duration": "80+ ঘন্টা",
+    "link": "https://www.learningbangladesh.com/course/digital-mastery-pack/checkout"
+  },
+  {
+    "id": 3,
+    "title": "AI Super Creator Bundle",
+    "description": "AI tools ব্যবহার করে কন্টেন্ট তৈরি, ডিজাইন এবং মার্কেটিং - আপনার সৃজনশীলতা বাড়ান",
+    "image": "https://learning-bangladesh.sgp1.digitaloceanspaces.com/courses/bundle3.jpg",
+    "courses": 4,
+    "ebooks": 2,
+    "originalPrice": "BDT 8000",
+    "discountedPrice": "BDT 1599",
+    "discount": "80%",
+    "rating": 4.9,
+    "students": 1500,
+    "duration": "90+ ঘন্টা",
+    "link": "https://www.learningbangladesh.com/course/ai-super-creator-bundle/checkout"
+  }
+]
