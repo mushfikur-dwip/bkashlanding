@@ -2,8 +2,8 @@
   {
     "id": 1,
     "name": "Marathon Workshop Bundle",
-    "price": "৳999",
-    "originalPrice": "৳5,994",
+    "price": "৳899",
+    "originalPrice": "৳5,000",
     "popular": false,
     "features": [
       "Video Editing (CapCut)",
@@ -18,8 +18,8 @@
   {
     "id": 2,
     "name": "AI Super Creator Bundle",
-    "price": "৳1,999",
-    "originalPrice": "৳12,994",
+    "price": "৳1,599",
+    "originalPrice": "৳8,000",
     "popular": true,
     "features": [
       "Passive Income with AI",
@@ -34,8 +34,8 @@
   {
     "id": 3,
     "name": "Digital Marketing Mastery Pack",
-    "price": "৳2,499",
-    "originalPrice": "৳14,994",
+    "price": "৳1,499",
+    "originalPrice": "৳7,000",
     "popular": false,
     "features": [
       "Digital Marketing Fundamentals",
