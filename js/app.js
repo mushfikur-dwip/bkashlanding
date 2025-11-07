@@ -158,7 +158,9 @@ if (pricingContainer) {
               : ""
           }
           <div class="text-center mb-6">
-            <h3 class="text-2xl font-bold text-gray-800 mb-2">${plan.name}</h3>
+            <a href="${plan.link}" target="_blank">
+              <h3 class="text-2xl font-bold text-gray-800 mb-2">${plan.name}</h3>
+            </a>
             <div class="flex items-center justify-center gap-2 mb-4">
               <span class="text-gray-400 line-through text-lg">${
                 plan.originalPrice
@@ -183,7 +185,7 @@ if (pricingContainer) {
               .join("")}
           </ul>
           <a href="${
-            plan.link
+            plan.checkout
           }" target="_blank" rel="noopener noreferrer" class="block">
             <button class="w-full ${
               plan.popular

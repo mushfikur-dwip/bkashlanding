@@ -13,7 +13,8 @@
       "Productivity with AI",
       "Resume Building"
     ],
-    "link": "https://www.learningbangladesh.com/course/marathon-bundle-workshop"
+    "link": "https://www.learningbangladesh.com/course/marathon-bundle-workshop",
+    "checkout":"https://www.learningbangladesh.com/course/marathon-bundle-workshop/checkout"
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
       "ChatGPT for Career",
       "Prompt Engineering"
     ],
-    "link": "https://www.learningbangladesh.com/course/ai-super-creator-bundle"
+    "link": "https://www.learningbangladesh.com/course/ai-super-creator-bundle",
+    "checkout":"https://www.learningbangladesh.com/course/ai-super-creator-bundle/checkout"
   },
   {
     "id": 3,
@@ -44,6 +46,7 @@
       "Lead Generation & Automation",
       "eCommerce Site Building"
     ],
-    "link": "https://www.learningbangladesh.com/course/digital-mastery-pack"
+    "link": "https://www.learningbangladesh.com/course/digital-mastery-pack",
+    "checkout":"https://www.learningbangladesh.com/course/digital-mastery-pack/checkout"
   }
 ]
