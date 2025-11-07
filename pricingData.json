@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Marathon Workshop Bundle",
+    "price": "৳999",
+    "originalPrice": "৳5,994",
+    "popular": false,
+    "features": [
+      "৬টি ১ ঘণ্টার লাইভ ওয়ার্কশপ",
+      "Resume Building Workshop",
+      "Productivity With AI",
+      "Content Creation With AI",
+      "Design With Canva",
+      "Video Editing With Capcut",
+      "Facebook Ads Workshop"
+    ],
+    "link": "https://www.learningbangladesh.com/course/marathon-bundle-workshop"
+  },
+  {
+    "id": 2,
+    "name": "AI Super Creator Bundle",
+    "price": "৳1,999",
+    "originalPrice": "৳12,994",
+    "popular": true,
+    "features": [
+      "ChatGPT for Career Success",
+      "eBook Business with AI",
+      "Passive Income & Content Creation",
+      "Everyday AI – 100+ Quick Hacks",
+      "Content Creation Workshop",
+      "LinkedIn Profile With AI"
+    ],
+    "link": "https://www.learningbangladesh.com/course/ai-super-creator-bundle"
+  },
+  {
+    "id": 3,
+    "name": "Digital Marketing Mastery Pack",
+    "price": "৳2,499",
+    "originalPrice": "৳14,994",
+    "popular": false,
+    "features": [
+      "Let's Learn Facebook Ads",
+      "Digital Marketing Fundamental",
+      "Business Lead Generation",
+      "LinkedIn for Everyone",
+      "Facebook Ads Advanced",
+      "Social Media Banner Design"
+    ],
+    "link": "https://www.learningbangladesh.com/course/digital-mastery-pack"
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "courses": [
+    {
+      "id": 8,
+      "tag": "No-Code Web App",
+      "title": "[Live Workshop] চ্যাটজিপিটি দিয়ে কোডিং নলেজ ছাড়াই ওয়েব এপ্লিকেশন",
+      "courseLink": "https://www.learningbangladesh.com/course/vibe-coding-with-chatgpt",
+      "subtitle": "চ্যাটজিপিটি ব্যবহার করে কোডিং নলেজ ছাড়াই নিজের আইডিয়া থেকে দারুণ সব ফুল ফাংশনাল ওয়েব এপ্লিকেশন বানানো শিখুন।",
+      "oldPrice": "1500",
+      "newPrice": "449",
+      "discount": "Promo Code: LB10",
+      "image": "https://learning-bangladesh.sgp1.digitaloceanspaces.com/courses/cGcGFOd6hUbe1rFntyqjwoQyFY6q8xZF.jpg",
+      "enrollBtn": "https://www.learningbangladesh.com/course/vibe-coding-with-chatgpt/checkout"
+    },
+    {
+      "id": 9,
+      "tag": "AI Fundamentals",
+      "title": "AI for Beginners - 2 hours Live Training",
+      "courseLink": "https://www.learningbangladesh.com/course/ai-for-beginner-2-hours-live-training",
+      "subtitle": "ChatGPT, Gemini, Grok AI-এর মতো চ্যাটবট ব্যবহার করে প্রফেশনাল ও পার্সোনাল লাইফে কীভাবে প্রোডাক্টিভ হবেন, তা বেসিক থেকে শিখুন।",
+      "oldPrice": "1500",
+      "newPrice": "299",
+      "discount": "Promo Code: LB10",
+      "image": "https://learning-bangladesh.sgp1.digitaloceanspaces.com/courses/oN7Ex2wNuf0cS3dbUMT53qsWYKUcO2pd.png",
+      "enrollBtn": "https://www.learningbangladesh.com/course/ai-for-beginner-2-hours-live-training/checkout"
+    },{
+      "id": 10,
+      "tag": "Design/Canva",
+      "title": "Social Media Banner Design With Canva - 2 Hour Online Workshop",
+      "courseLink": "https://www.learningbangladesh.com/course/canva-onlline-workshop",
+      "subtitle": "মাত্র ২ ঘণ্টার অনলাইন ওয়ার্কশপে ক্যানভা দিয়ে আকর্ষণীয় পোস্টার ও ক্যারোজাল ডিজাইন তৈরির সকল কৌশল শিখে নিন।",
+      "oldPrice": "1000",
+      "newPrice": "499",
+      "discount": "Promo Code: LB10",
+      "image": "https://learning-bangladesh.sgp1.digitaloceanspaces.com/courses/FIQjUTTioKLG1ABghXKNlko0CtradsVL.png",
+      "enrollBtn": "https://www.learningbangladesh.com/course/canva-onlline-workshop/checkout"
+    },{
+      "id": 11,
+      "tag": "AI Content Creation",
+      "title": "কন্টেন্ট ক্রিয়েশন উইথ এআই - ১ মাসব্যাপী লাইভ ট্রেনিং",
+      "courseLink": "https://www.learningbangladesh.com/course/AI-Live-Training",
+      "subtitle": "১ মাসব্যাপী এই লাইভ ট্রেনিং এ AI টুলস দিয়ে স্ক্রিপ্ট লেখা থেকে ভিডিও এডিটিং, মার্কেটিং এবং মনিটাইজেশন শেখা সম্ভব হবে।",
+      "oldPrice": "15000",
+      "newPrice": "1499",
+      "discount": "Promo Code: LB10",
+      "image": "https://learning-bangladesh.sgp1.digitaloceanspaces.com/courses/tLMZYSbpUO6XlGftRsQ5qViKNtXoY7el.jpeg",
+      "enrollBtn": "https://www.learningbangladesh.com/course/AI-Live-Training/checkout"
+    },{
+      "id": 12,
+      "tag": "Facebook Ads",
+      "title": "ফেইসবুক এড এডভান্সড লাইভ ওয়ার্কশপ",
+      "courseLink": "https://www.learningbangladesh.com/course/facebook-ads-advanced-live-workshop",
+      "subtitle": "ফেইসবুক এডের উপর এডভান্সড এই ওয়ার্কশপ সবার জন্য না, শুধুমাত্র যাদের এড চালানোর এক্সপেরিয়েন্স আছে।",
+      "oldPrice": "3500",
+      "newPrice": "2500",
+      "discount": "Promo Code: LB10",
+      "image": "https://learning-bangladesh.sgp1.digitaloceanspaces.com/courses/GjwHtGHmwFKY6ykajrm7xWYvGmmWTuSR.png",
+      "enrollBtn": "https://www.learningbangladesh.com/course/facebook-ads-advanced-live-workshop/checkout"
+    },{
+      "id": 13,
+      "tag": "Career/CV",
+      "title": "Update Your CV & LinkedIn profile with AI - 2 Hour Live Training",
+      "courseLink": "https://www.learningbangladesh.com/course/cv-linkedin-live-workshop",
+      "subtitle": "AI ব্যবহার করে আপনার পুরাতন মাস্টার সিভি, রেজ্যুমে এবং LinkedIn প্রোফাইলকে চাকরির বাজার অনুযায়ী অলস্টার লেভেলে নিয়ে যাওয়ার কৌশল শিখুন।",
+      "oldPrice": "1500",
+      "newPrice": "499",
+      "discount": "Promo Code: LB10",
+      "image": "https://learning-bangladesh.sgp1.digitaloceanspaces.com/courses/Obm9rBPaNDTWa8p8CYOtBAcc2lVq45PC.png",
+      "enrollBtn": "https://www.learningbangladesh.com/course/cv-linkedin-live-workshop/checkout"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "courses": [
+    {
+      "id": 2,
+      "tag": "Resume Building",
+      "title": "Resume Building - One Hour Workshop",
+      "courseLink": "https://www.learningbangladesh.com/course/resume-building-workshop",
+      "subtitle": "চাকরির জন্য সিভি নয়, জব সার্কুলারের উপর ভিত্তি করে রেজ্যুমে তৈরি করার ১ ঘণ্টার লাইভ ওয়ার্কশপ।",
+      "oldPrice": "1000",
+      "newPrice": "199",
+      "discount": "Promo Code: LB10",
+      "image": "https://learning-bangladesh.sgp1.digitaloceanspaces.com/courses/QmfgCau5XTsFKPW3GqEZFgekEhyWaJ1a.png",
+      "enrollBtn": "https://www.learningbangladesh.com/course/resume-building-workshop/checkout"
+    },
+    {
+      "id": 3,
+      "tag": "AI Productivity",
+      "title": "Productivity With AI - One Hour Live Workshop",
+      "courseLink": "https://www.learningbangladesh.com/course/productivity-with-ai-workshop",
+      "subtitle": "আপনার পার্সোনাল ও প্রফেশনাল লাইফে ChatGPT, Gemini, Grok AI সহ ফ্রি AI টুলস ব্যবহার করে প্রোডাক্টিভিটি বাড়ান।",
+      "oldPrice": "1000",
+      "newPrice": "199",
+      "discount": "Promo Code: LB10",
+      "image": "https://learning-bangladesh.sgp1.digitaloceanspaces.com/courses/NXyOjX9NjvYABpwotJRPL5FhJFkCKrNT.png",
+      "enrollBtn": "https://www.learningbangladesh.com/course/productivity-with-ai-workshop/checkout"
+    },
+    {
+      "id": 4,
+      "tag": "AI Content Creation",
+      "title": "Content Creation With AI - One-Hour Live workshop",
+      "courseLink": "https://www.learningbangladesh.com/course/content-creation-one-hour-workshop",
+      "subtitle": "ChatGPT, Midjourney, Sora, ElevenLabs সহ সব AI টুলস দিয়ে কন্টেন্ট ক্রিয়েশনের A-Z শিখুন এই ১ ঘণ্টার মাস্টার ক্লাসে।",
+      "oldPrice": "999",
+      "newPrice": "199",
+      "discount": "Promo Code: LB10",
+      "image": "https://learning-bangladesh.sgp1.digitaloceanspaces.com/courses/jBABMMEEObmiibKveHlNbgPtzkLXUFdk.png",
+      "enrollBtn": "https://www.learningbangladesh.com/course/content-creation-one-hour-workshop/checkout"
+    },
+    {
+      "id": 5,
+      "tag": "Design/Canva",
+      "title": "Design With Canva - One Hour Workshop",
+      "courseLink": "https://www.learningbangladesh.com/course/canva-one-hour-workshop",
+      "subtitle": "মাত্র ১ ঘন্টার অনলাইন ওয়ার্কশপে কোনো ডিজাইন নলেজ ছাড়াই ক্যানভা দিয়ে আকর্ষণীয় পোস্টার ও প্রেজেন্টেশন স্লাইড ডিজাইন শিখুন।",
+      "oldPrice": "999",
+      "newPrice": "199",
+      "discount": "Promo Code: LB10",
+      "image": "https://learning-bangladesh.sgp1.digitaloceanspaces.com/courses/5HFgSeoP5wMUUOrrzdTypSXC4aElSV3s.png",
+      "enrollBtn": "https://www.learningbangladesh.com/course/canva-one-hour-workshop/checkout"
+    },
+    {
+      "id": 6,
+      "tag": "Video Editing",
+      "title": "Basic Video Editing With Capcut - One Hour Live Workshop",
+      "courseLink": "https://www.learningbangladesh.com/course/video-editing-with-capcut",
+      "subtitle": "CapCut দিয়ে ভিডিও এডিটিং-এর বেসিক কৌশলগুলো শিখে নিন, যা আপনার ভিডিও এডিটিং-এর শক্ত 'হাতেখড়ি' নিশ্চিত করবে।",
+      "oldPrice": "999",
+      "newPrice": "199",
+      "discount": "Promo Code: LB10",
+      "image": "https://learning-bangladesh.sgp1.digitaloceanspaces.com/courses/znVl311OdKyzKskU8L9A7O9zpvQ8PfuX.png",
+      "enrollBtn": "https://www.learningbangladesh.com/course/video-editing-with-capcut/checkout"
+    },
+    {
+      "id": 7,
+      "tag": "Facebook Ads",
+      "title": "Facebook Ads - One Hour Workshop",
+      "courseLink": "https://www.learningbangladesh.com/course/facebook-ads-workshop",
+      "subtitle": "অল্প বাজেটে টার্গেটিং করে ফেসবুক এড থেকে মার্কেটিং লিড, কনভার্সন বা বোটম ফানেলে সেলস শুরু করার উপায় শিখুন।",
+      "oldPrice": "999",
+      "newPrice": "199",
+      "discount": "Promo Code: LB10",
+      "image": "https://learning-bangladesh.sgp1.digitaloceanspaces.com/courses/b2PfGOaGd9YS6rsozmL4vxvBjezNfcbW.png",
+      "enrollBtn": "https://www.learningbangladesh.com/course/facebook-ads-workshop/checkout"
+    }
+  ]
+}
